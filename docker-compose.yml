@@ -5,7 +5,7 @@ services:
     ports:
       - '3000:3000'
     environment:
-      - MONGO_URI=mongodb://mongo:27017/hệ-thống-%C4%91%E1%BA%B7t-h%C3%A0ng
+      - MONGO_URI=mongodb://mongo:27017/hệ-thống-%C4%91ặt-hàng
     depends_on:
       - mongo
 
